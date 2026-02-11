@@ -7,9 +7,8 @@ import { ShoppingCart } from 'lucide-react';
 // src/app/cart/page.tsx
 export default function CartPage() {
   return (
-    <div>
-      <h1>Cart Page</h1>
-      <p>Your cart will appear here</p>
-    </div>
+     <main className="max-w-3xl mx-auto p-6">
+      <CartSummary />
+    </main>
   );
 }
