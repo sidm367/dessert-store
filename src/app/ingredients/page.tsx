@@ -17,4 +17,4 @@ export default function IngredientsPage() {
       <IngredientsTable />
     </div>
   );
-}
+}3
