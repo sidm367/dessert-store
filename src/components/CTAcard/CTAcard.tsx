@@ -42,7 +42,7 @@ export const RewardsSlider : React.FC<Props> = ({slides}) => {
     }, [emblaApi]);
 
     return (
-    <div className="max-w-5xl mx-auto bg-[#FDF8F5] rounded-br-[100px] overflow-hidden border border-orange-50 shadow-sm">
+    <div className="max-w-5xl mx-auto bg-[#FFFFFF] rounded-br-[100px] overflow-hidden border border-orange-50 shadow-sm">
       <div className="overflow-hidden" ref={emblaRef || undefined}>
         <div className="flex embla__container">
           {slides.map((slide) => (
